@@ -5,7 +5,7 @@ interface TitleProps {
 }
 
 const Title: FC<TitleProps> = ({ title }) => {
-  return <h1 className='text-4xl font-bold'>------------ {title.toUpperCase()} ------------</h1>
+  return <h1 className='font-bold'>============ {title.toUpperCase()} ============</h1>
 }
 
 export default Title

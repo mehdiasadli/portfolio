@@ -2,8 +2,6 @@ import { FC } from 'react'
 import { Github, Linkedin } from 'lucide-react'
 import FooterLink from './FooterLink'
 
-interface FooterProps {}
-
 const footerLinks = [
   {
     id: 1,
@@ -33,7 +31,7 @@ const footerLinks = [
 
 export type FooterLinkType = (typeof footerLinks)[0]
 
-const Footer: FC<FooterProps> = ({}) => {
+const Footer: FC = () => {
   return (
     <footer className='fixed bottom-0 bg-background-d text-text-l w-screen flex justify-between'>
       <ul>

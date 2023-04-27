@@ -2,6 +2,7 @@ import './globals.css'
 import { Courier_Prime } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Lines from '@/components/Lines'
 
 const courier = Courier_Prime({ subsets: ['latin'], weight: '400' })
 
@@ -15,7 +16,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang='en'>
       <body className={courier.className}>
         <Navbar />
-        <main className='py-10'>{children}</main>
+        <div className='py-10 bg-background flex'>
+          <Lines />
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

@@ -18,6 +18,7 @@ module.exports = {
         background: '#282C34',
         'background-d': '#21252A',
         'text-l': '#F0F0F0',
+        text: '#808080',
         'text-d': '#21252A'
       }
     }
