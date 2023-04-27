@@ -34,9 +34,7 @@ export type FooterLinkType = (typeof footerLinks)[0]
 const Footer: FC = () => {
   return (
     <footer className='fixed bottom-0 bg-background-d text-text-l w-screen flex justify-between'>
-      <ul>
-        <FooterLink item={footerLinks[0]} />
-      </ul>
+      <ul>{/* <FooterLink item={footerLinks[0]} /> */}</ul>
       <ul className='flex'>
         {footerLinks.slice(1).map((item) => (
           <FooterLink key={item.id} item={item} />
