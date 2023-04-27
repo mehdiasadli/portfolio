@@ -3,6 +3,11 @@ import { FC } from 'react'
 
 interface AboutProps {}
 
+export const metadata = {
+  title: 'About',
+  description: 'About section of this portfolio'
+}
+
 const About: FC<AboutProps> = ({}) => {
   return (
     <main className='text-text-l p-3 min-h-screen'>
@@ -30,7 +35,7 @@ const About: FC<AboutProps> = ({}) => {
       <p>| &nbsp;&nbsp;&nbsp;&nbsp; *</p>
       <p>| &nbsp;&nbsp;&nbsp;&nbsp;*</p>
       <p>| &nbsp;&nbsp;&nbsp;*</p>
-      <p>|  &nbsp; *</p>
+      <p>| &nbsp; *</p>
       <p>| &nbsp;*</p>
       <p>| *</p>
       <p>{'-------------------> Time'}</p>

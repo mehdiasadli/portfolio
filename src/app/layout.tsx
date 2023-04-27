@@ -7,7 +7,7 @@ import Lines from '@/components/Lines'
 const courier = Courier_Prime({ subsets: ['latin'], weight: '400' })
 
 export const metadata = {
-  title: 'The Asadli',
+  title: "Mehdi's Portfolio",
   description: 'Created by Mehdi Asadli with NextJS'
 }
 

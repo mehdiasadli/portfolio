@@ -3,6 +3,11 @@ import { FC } from 'react'
 
 interface SettingsProps {}
 
+export const metadata = {
+  title: 'Settings',
+  description: 'Settings section of this portfolio'
+}
+
 const Settings: FC<SettingsProps> = ({}) => {
   return (
     <main className='text-text-l p-3 min-h-screen'>

@@ -3,6 +3,11 @@ import { FC } from 'react'
 
 interface ProjectsProps {}
 
+export const metadata = {
+  title: 'Projects',
+  description: 'Projects section of this portfolio'
+}
+
 const Projects: FC<ProjectsProps> = ({}) => {
   return (
     <main className='text-text-l p-3 min-h-screen'>

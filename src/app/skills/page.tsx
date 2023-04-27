@@ -3,6 +3,11 @@ import { FC } from 'react'
 
 interface SkillsProps {}
 
+export const metadata = {
+  title: 'Skills',
+  description: 'Skills section of this portfolio'
+}
+
 const Skills: FC<SkillsProps> = ({}) => {
   return (
     <main className='text-text-l p-3 min-h-screen'>
