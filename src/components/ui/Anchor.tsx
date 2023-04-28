@@ -11,7 +11,7 @@ const Anchor: FC<AnchorProps> = ({ label, link, target = false }) => {
   return (
     <Link
       href={link}
-      className='underline hover:text-accent-d'
+      className='underline hover:text-accent-d dark:hover:text-l-accent-l'
       target={target ? '_blank' : '_self'}
     >
       {label}

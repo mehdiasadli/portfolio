@@ -18,12 +18,12 @@ const NavMenu: FC<NavMenuProps> = ({}) => {
 
   return (
     <>
-      <div className='cursor-pointer mr-2 hidden sm:block'>
+      <div className='cursor-pointer mr-2 hidden sm:block dark:text-text-d'>
         <MenuIcon onClick={() => setIsMenuOpen(true)} />
       </div>
       {isMenuOpen && (
         <div className='fixed h-screen w-screen top-0 left-0 '>
-          <aside className='fixed h-screen w-1/2 z-10 right-0 top-0 bg-background-d p-2'>
+          <aside className='fixed h-screen w-1/2 z-10 right-0 top-0 bg-background-d dark:bg-l-background-d p-2'>
             <X
               className='h-6 w-6 absolute right-0 cursor-pointer hover:text-text'
               onClick={() => setIsMenuOpen(false)}

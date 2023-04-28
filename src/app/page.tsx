@@ -27,7 +27,7 @@ let schema = {
 
 const Home: FC = ({}) => {
   return (
-    <main className='text-text-l p-3 min-h-screen'>
+    <main className='p-3 min-h-screen'>
       <p>HI, My name is</p>
       <Title title='Mehdi Asadli' />
       <p>I build things for the web and the people using it.</p>

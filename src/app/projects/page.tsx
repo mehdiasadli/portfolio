@@ -10,7 +10,7 @@ export const metadata = {
 
 const Projects: FC<ProjectsProps> = ({}) => {
   return (
-    <main className='text-text-l p-3 min-h-screen'>
+    <main className='p-3 min-h-screen'>
       <Title title='PROJECTS SECTION' />
       <p>{"For now I don't have something to show here"}</p>
       <br />

@@ -10,7 +10,7 @@ export const metadata = {
 
 const About: FC<AboutProps> = ({}) => {
   return (
-    <main className='text-text-l p-3 min-h-screen'>
+    <main className='p-3 min-h-screen'>
       <Title title='ABOUT ME SECTION' />
       <p>Hello! My name is Mehdi and I enjoy creating things that live on the internet.</p>
       <p>

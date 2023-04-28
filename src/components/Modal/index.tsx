@@ -27,11 +27,11 @@ const Modal: FC = () => {
   const router = useRouter()
 
   return (
-    <section className='bg-background-d text-text-l w-[36rem] h-[24rem] p-4 flex flex-col items-center shadow-md relative'>
+    <section className='bg-background-d dark:bg-l-background-d dark:text-text-d text-text-l w-[36rem] h-[24rem] p-4 flex flex-col items-center shadow-md relative'>
       <header className='relative w-full flex justify-center items-center'>
         <h1 className='text-xl'>CONTACT</h1>
         <X
-          className='h-6 w-6 absolute right-0 cursor-pointer hover:text-text'
+          className='h-6 w-6 absolute right-0 cursor-pointer hover:text-text dark:hover:text-text-d'
           onClick={router.back}
         />
       </header>

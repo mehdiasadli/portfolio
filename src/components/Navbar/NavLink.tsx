@@ -16,12 +16,12 @@ const NavLink: FC<NavLinkProps> = ({ item }) => {
     <li aria-label={item.name}>
       <Link
         className={`${
-          isActive && 'text-accent'
+          isActive && 'text-accent dark:text-l-accent'
         }  h-10 px-8 md:text-[12px] md:px-6 flex items-center justify-center relative after:h-1 after:w-full after:absolute ${
-          isActive ? 'after:bg-accent' : 'after:bg-text-l'
+          isActive ? 'after:bg-accent dark:after:bg-l-accent' : 'after:bg-text-l dark:after:bg-text-d'
         } after:bottom-0 ${
           isActive ? 'after:scale-100' : 'after:scale-0'
-        } hover:after:scale-100 focus:outline-none focus:ring-1 focus:ring-accent-d`}
+        } hover:after:scale-100 focus:outline-none focus:ring-1 focus:ring-accent-d dark:focus:ring-l-accent`}
         href={item.path}
       >
         {item.label}

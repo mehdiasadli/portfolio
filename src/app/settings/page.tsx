@@ -10,7 +10,7 @@ export const metadata = {
 
 const Settings: FC<SettingsProps> = ({}) => {
   return (
-    <main className='text-text-l p-3 min-h-screen'>
+    <main className='p-3 min-h-screen'>
       <p className='text-primary'>{'{'}</p>
       <p>
         &nbsp;&nbsp;<span className='text-text'>“</span>_comment

@@ -19,7 +19,7 @@ const FooterLink: FC<FooterLinkProps> = ({ item }) => {
         target={item.target ? '_blank' : '_self'}
         className={`${
           isActive && 'bg-background-l'
-        } h-8 px-6 flex items-center justify-center gap-2 hover:bg-background-l cursor-pointer focus:outline-none focus:ring-1 focus:ring-primary`}
+        } h-8 px-6 flex items-center justify-center gap-2 hover:bg-background-l dark:hover:bg-secondary-l dark:text-text-l cursor-pointer focus:outline-none focus:ring-1 focus:ring-primary`}
       >
         {item.icon && <span>{item.icon}</span>}
         <p>{item.label}</p>

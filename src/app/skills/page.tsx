@@ -10,7 +10,7 @@ export const metadata = {
 
 const Skills: FC<SkillsProps> = ({}) => {
   return (
-    <main className='text-text-l p-3 min-h-screen'>
+    <main className='p-3 min-h-screen'>
       <Title title='SKILLS' />
       <p>As a Software Developer I have some skills (I said that, because I have some</p>
       <p>other skills which are not related to Computer Science, e.g. Comedy)</p>

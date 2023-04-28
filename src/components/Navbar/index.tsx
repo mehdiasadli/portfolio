@@ -29,7 +29,7 @@ interface NavbarProps {}
 
 const Navbar: FC<NavbarProps> = ({}) => {
   return (
-    <nav className='bg-background-d text-text-l fixed w-screen flex justify-between items-center'>
+    <nav className='bg-background-d dark:bg-l-background text-text-l dark:text-text-d fixed w-screen flex justify-between items-center'>
       <ul className='flex sm:hidden'>
         {navList.map((item) => (
           <NavLink key={item.id} item={item} />
