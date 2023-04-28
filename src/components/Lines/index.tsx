@@ -2,7 +2,7 @@ import { FC } from 'react'
 
 interface LinesProps {}
 
-const list = Array.from({ length: 60 }).map((_, index) =>
+const list = Array.from({ length: 45 }).map((_, index) =>
   index + 1 < 10 ? '0' + (index + 1) : index + 1
 )
 

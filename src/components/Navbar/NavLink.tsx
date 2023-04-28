@@ -17,7 +17,7 @@ const NavLink: FC<NavLinkProps> = ({ item }) => {
       <Link
         className={`${
           isActive && 'text-accent'
-        }  h-10 px-8 flex items-center justify-center relative after:h-1 after:w-full after:absolute ${
+        }  h-10 px-8 md:text-[12px] md:px-6 flex items-center justify-center relative after:h-1 after:w-full after:absolute ${
           isActive ? 'after:bg-accent' : 'after:bg-text-l'
         } after:bottom-0 ${
           isActive ? 'after:scale-100' : 'after:scale-0'

@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang='en'>
       <body className={courier.className}>
         <Navbar />
-        <div className='py-10 bg-background flex'>
+        <div className='py-10 bg-background flex '>
           <Lines />
           {children}
         </div>
